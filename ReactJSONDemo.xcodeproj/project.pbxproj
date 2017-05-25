@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B39B1471ED494A100D95F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39B1461ED494A100D95F43 /* AppDelegate.swift */; };
+		2B39B1491ED494A100D95F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39B1481ED494A100D95F43 /* ViewController.swift */; };
+		2B39B14C1ED494A100D95F43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B39B14A1ED494A100D95F43 /* Main.storyboard */; };
+		2B39B14E1ED494A100D95F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B39B14D1ED494A100D95F43 /* Assets.xcassets */; };
+		2B39B1511ED494A100D95F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B39B14F1ED494A100D95F43 /* LaunchScreen.storyboard */; };
+		2B39B15C1ED494A200D95F43 /* ReactJSONDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39B15B1ED494A200D95F43 /* ReactJSONDemoTests.swift */; };
+		2B39B1671ED494A200D95F43 /* ReactJSONDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39B1661ED494A200D95F43 /* ReactJSONDemoUITests.swift */; };
+		2B39B1761ED4983400D95F43 /* ReactiveJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B39B1751ED4983400D95F43 /* ReactiveJSON.framework */; };
+		2B39B1781ED4983700D95F43 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B39B1771ED4983700D95F43 /* Result.framework */; };
+		2B39B17A1ED4983900D95F43 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B39B1791ED4983900D95F43 /* ReactiveCocoa.framework */; };
+		2B39B17D1ED49ACB00D95F43 /* JSONCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39B17C1ED49ACB00D95F43 /* JSONCall.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B39B1581ED494A200D95F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B39B13B1ED4949A00D95F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B39B1421ED4949A00D95F43;
+			remoteInfo = ReactJSONDemo;
+		};
+		2B39B1631ED494A200D95F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B39B13B1ED4949A00D95F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B39B1421ED4949A00D95F43;
+			remoteInfo = ReactJSONDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B39B1431ED494A000D95F43 /* ReactJSONDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactJSONDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B39B1461ED494A100D95F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B39B1481ED494A100D95F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B39B14B1ED494A100D95F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B39B14D1ED494A100D95F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B39B1501ED494A100D95F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B39B1521ED494A100D95F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B39B1571ED494A200D95F43 /* ReactJSONDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactJSONDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B39B15B1ED494A200D95F43 /* ReactJSONDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactJSONDemoTests.swift; sourceTree = "<group>"; };
+		2B39B15D1ED494A200D95F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B39B1621ED494A200D95F43 /* ReactJSONDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactJSONDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B39B1661ED494A200D95F43 /* ReactJSONDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactJSONDemoUITests.swift; sourceTree = "<group>"; };
+		2B39B1681ED494A200D95F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B39B1751ED4983400D95F43 /* ReactiveJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveJSON.framework; path = Carthage/Build/iOS/ReactiveJSON.framework; sourceTree = "<group>"; };
+		2B39B1771ED4983700D95F43 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		2B39B1791ED4983900D95F43 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		2B39B17C1ED49ACB00D95F43 /* JSONCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONCall.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B39B1401ED4949A00D95F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B39B1761ED4983400D95F43 /* ReactiveJSON.framework in Frameworks */,
+				2B39B17A1ED4983900D95F43 /* ReactiveCocoa.framework in Frameworks */,
+				2B39B1781ED4983700D95F43 /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B39B1541ED494A200D95F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B39B15F1ED494A200D95F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B39B13A1ED4949A00D95F43 = {
+			isa = PBXGroup;
+			children = (
+				2B39B1451ED494A000D95F43 /* ReactJSONDemo */,
+				2B39B15A1ED494A200D95F43 /* ReactJSONDemoTests */,
+				2B39B1651ED494A200D95F43 /* ReactJSONDemoUITests */,
+				2B39B1441ED494A000D95F43 /* Products */,
+				2B39B1741ED4983400D95F43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B39B1441ED494A000D95F43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B39B1431ED494A000D95F43 /* ReactJSONDemo.app */,
+				2B39B1571ED494A200D95F43 /* ReactJSONDemoTests.xctest */,
+				2B39B1621ED494A200D95F43 /* ReactJSONDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B39B1451ED494A000D95F43 /* ReactJSONDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B39B1461ED494A100D95F43 /* AppDelegate.swift */,
+				2B39B1481ED494A100D95F43 /* ViewController.swift */,
+				2B39B17C1ED49ACB00D95F43 /* JSONCall.swift */,
+				2B39B14A1ED494A100D95F43 /* Main.storyboard */,
+				2B39B14D1ED494A100D95F43 /* Assets.xcassets */,
+				2B39B14F1ED494A100D95F43 /* LaunchScreen.storyboard */,
+				2B39B1521ED494A100D95F43 /* Info.plist */,
+			);
+			path = ReactJSONDemo;
+			sourceTree = "<group>";
+		};
+		2B39B15A1ED494A200D95F43 /* ReactJSONDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B39B15B1ED494A200D95F43 /* ReactJSONDemoTests.swift */,
+				2B39B15D1ED494A200D95F43 /* Info.plist */,
+			);
+			path = ReactJSONDemoTests;
+			sourceTree = "<group>";
+		};
+		2B39B1651ED494A200D95F43 /* ReactJSONDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B39B1661ED494A200D95F43 /* ReactJSONDemoUITests.swift */,
+				2B39B1681ED494A200D95F43 /* Info.plist */,
+			);
+			path = ReactJSONDemoUITests;
+			sourceTree = "<group>";
+		};
+		2B39B1741ED4983400D95F43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B39B1791ED4983900D95F43 /* ReactiveCocoa.framework */,
+				2B39B1771ED4983700D95F43 /* Result.framework */,
+				2B39B1751ED4983400D95F43 /* ReactiveJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B39B1421ED4949A00D95F43 /* ReactJSONDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B39B16B1ED494A200D95F43 /* Build configuration list for PBXNativeTarget "ReactJSONDemo" */;
+			buildPhases = (
+				2B39B13F1ED4949A00D95F43 /* Sources */,
+				2B39B1401ED4949A00D95F43 /* Frameworks */,
+				2B39B1411ED4949A00D95F43 /* Resources */,
+				2B39B17B1ED4986800D95F43 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactJSONDemo;
+			productName = ReactJSONDemo;
+			productReference = 2B39B1431ED494A000D95F43 /* ReactJSONDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B39B1561ED494A200D95F43 /* ReactJSONDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B39B16E1ED494A200D95F43 /* Build configuration list for PBXNativeTarget "ReactJSONDemoTests" */;
+			buildPhases = (
+				2B39B1531ED494A200D95F43 /* Sources */,
+				2B39B1541ED494A200D95F43 /* Frameworks */,
+				2B39B1551ED494A200D95F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B39B1591ED494A200D95F43 /* PBXTargetDependency */,
+			);
+			name = ReactJSONDemoTests;
+			productName = ReactJSONDemoTests;
+			productReference = 2B39B1571ED494A200D95F43 /* ReactJSONDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B39B1611ED494A200D95F43 /* ReactJSONDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B39B1711ED494A200D95F43 /* Build configuration list for PBXNativeTarget "ReactJSONDemoUITests" */;
+			buildPhases = (
+				2B39B15E1ED494A200D95F43 /* Sources */,
+				2B39B15F1ED494A200D95F43 /* Frameworks */,
+				2B39B1601ED494A200D95F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B39B1641ED494A200D95F43 /* PBXTargetDependency */,
+			);
+			name = ReactJSONDemoUITests;
+			productName = ReactJSONDemoUITests;
+			productReference = 2B39B1621ED494A200D95F43 /* ReactJSONDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B39B13B1ED4949A00D95F43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = computer;
+				TargetAttributes = {
+					2B39B1421ED4949A00D95F43 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					2B39B1561ED494A200D95F43 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B39B1421ED4949A00D95F43;
+					};
+					2B39B1611ED494A200D95F43 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B39B1421ED4949A00D95F43;
+					};
+				};
+			};
+			buildConfigurationList = 2B39B13E1ED4949A00D95F43 /* Build configuration list for PBXProject "ReactJSONDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B39B13A1ED4949A00D95F43;
+			productRefGroup = 2B39B1441ED494A000D95F43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B39B1421ED4949A00D95F43 /* ReactJSONDemo */,
+				2B39B1561ED494A200D95F43 /* ReactJSONDemoTests */,
+				2B39B1611ED494A200D95F43 /* ReactJSONDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B39B1411ED4949A00D95F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B39B1511ED494A100D95F43 /* LaunchScreen.storyboard in Resources */,
+				2B39B14E1ED494A100D95F43 /* Assets.xcassets in Resources */,
+				2B39B14C1ED494A100D95F43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B39B1551ED494A200D95F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B39B1601ED494A200D95F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B39B17B1ED4986800D95F43 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveJSON.framework",
+				"$(SRCROOT)/$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B39B13F1ED4949A00D95F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B39B17D1ED49ACB00D95F43 /* JSONCall.swift in Sources */,
+				2B39B1491ED494A100D95F43 /* ViewController.swift in Sources */,
+				2B39B1471ED494A100D95F43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B39B1531ED494A200D95F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B39B15C1ED494A200D95F43 /* ReactJSONDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B39B15E1ED494A200D95F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B39B1671ED494A200D95F43 /* ReactJSONDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B39B1591ED494A200D95F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B39B1421ED4949A00D95F43 /* ReactJSONDemo */;
+			targetProxy = 2B39B1581ED494A200D95F43 /* PBXContainerItemProxy */;
+		};
+		2B39B1641ED494A200D95F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B39B1421ED4949A00D95F43 /* ReactJSONDemo */;
+			targetProxy = 2B39B1631ED494A200D95F43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B39B14A1ED494A100D95F43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B39B14B1ED494A100D95F43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B39B14F1ED494A100D95F43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B39B1501ED494A100D95F43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B39B1691ED494A200D95F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B39B16A1ED494A200D95F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B39B16C1ED494A200D95F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactJSONDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = computer.ReactJSONDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		2B39B16D1ED494A200D95F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactJSONDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = computer.ReactJSONDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		2B39B16F1ED494A200D95F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactJSONDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = computer.ReactJSONDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactJSONDemo.app/ReactJSONDemo";
+			};
+			name = Debug;
+		};
+		2B39B1701ED494A200D95F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReactJSONDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = computer.ReactJSONDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactJSONDemo.app/ReactJSONDemo";
+			};
+			name = Release;
+		};
+		2B39B1721ED494A200D95F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ReactJSONDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = computer.ReactJSONDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ReactJSONDemo;
+			};
+			name = Debug;
+		};
+		2B39B1731ED494A200D95F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ReactJSONDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = computer.ReactJSONDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ReactJSONDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B39B13E1ED4949A00D95F43 /* Build configuration list for PBXProject "ReactJSONDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B39B1691ED494A200D95F43 /* Debug */,
+				2B39B16A1ED494A200D95F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B39B16B1ED494A200D95F43 /* Build configuration list for PBXNativeTarget "ReactJSONDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B39B16C1ED494A200D95F43 /* Debug */,
+				2B39B16D1ED494A200D95F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B39B16E1ED494A200D95F43 /* Build configuration list for PBXNativeTarget "ReactJSONDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B39B16F1ED494A200D95F43 /* Debug */,
+				2B39B1701ED494A200D95F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B39B1711ED494A200D95F43 /* Build configuration list for PBXNativeTarget "ReactJSONDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B39B1721ED494A200D95F43 /* Debug */,
+				2B39B1731ED494A200D95F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B39B13B1ED4949A00D95F43 /* Project object */;
+}

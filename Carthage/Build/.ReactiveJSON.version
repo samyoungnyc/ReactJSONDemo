@@ -1,0 +1,9 @@
+{
+  "commitish" : "0.0.5",
+  "iOS" : [
+    {
+      "hash" : "ebf8eafc3dedb9917b94b28c82044d3faf9bb9cea01b107e299464a149388153",
+      "name" : "ReactiveJSON"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "commitish" : "v4.2.2",
+  "iOS" : [
+    {
+      "hash" : "0e769a472cb5ad4a17434bcc684b8a07fb034355cac0b42081a6375bd23dbec4",
+      "name" : "ReactiveCocoa"
+    }
+  ]
+}
